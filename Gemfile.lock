@@ -30,10 +30,6 @@ GEM
       activesupport (= 3.1.1)
       arel (~> 2.2.1)
       tzinfo (~> 0.3.29)
-    activerecord-jdbc-adapter (1.2.5)
-    activerecord-jdbcsqlite3-adapter (1.2.5)
-      activerecord-jdbc-adapter (~> 1.2.5)
-      jdbc-sqlite3 (~> 3.7.2)
     activeresource (3.1.1)
       activemodel (= 3.1.1)
       activesupport (= 3.1.1)
@@ -44,7 +40,6 @@ GEM
     erubis (2.7.0)
     hike (1.2.1)
     i18n (0.6.1)
-    jdbc-sqlite3 (3.7.2)
     json (1.7.6-java)
     mail (2.3.3)
       i18n (>= 0.4.0)
@@ -95,5 +90,4 @@ PLATFORMS
   java
 
 DEPENDENCIES
-  activerecord-jdbcsqlite3-adapter
   csbrowser!
