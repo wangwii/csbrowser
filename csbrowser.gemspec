@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.name        = "csbrowser"
   s.version     = Csbrowser::VERSION
   s.authors     = ["Wang Wei"]
-  s.email       = ["cnetwei@126.com"]
-  s.homepage    = "TODO"
+  s.email       = %w[cnetwei@126.com]
+  s.homepage    = "https://github.com/WangweiXian/csbrowser"
   s.summary     = "A data browser of the awe-cstore."
   s.description = "To browser and query data from the awe-cstore."
 
